@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.background{
+  height: 700px;
+  width: 100%;
+  background-image: url(house-IMG.jpg);
+  background-size: cover;
+  
+}
+.navbar{
+  height: 60px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+.navbar h2{
+  font-size: 40px;
+
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 30px;
+}
+.navbar ul li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navbar button{
+  width: 150px;
+  background-color: white;
+  border: 0;
+  border-radius: 25px;
+}
+.navbar button a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.text{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.text h1{
+  color: white;
+  font-size: 50px;
+}
+.text p{
+  color: white;
+  font-size: 20px;
+  
+}
+.sbox{
+width: 500px;
+height: 70px;
+background-color: rgba(0, 0, 0, 0.572);
+margin-left: 106px;
+margin-top: 50px;
+
+}
+.small{
+  color: white;
+  text-align: center;
+ 
+}
+.small h3{
+  font-size: 30px;
+}
+.small p{
+  font-size: 10px;
+}
+.sbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.line{
+  height: 150px;
+  width: 90%;
+  background-color:white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 10px 10px 10px black;
+  align-items: center;
+  position: relative;
+  left: 90px;
+  bottom: 60px;
+}
+.first{
+  border-right: 2px solid black;
+  padding-right: 30px;
+}
+.second{
+  border-right: 2px solid black;
+  padding-right: 30px;
+}
+.third{
+  border-right: 2px solid black;
+  padding-right: 30px;
+}
+.line button{
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  border-radius: 20px;
+}
+.line button a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
